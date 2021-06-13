@@ -1,0 +1,174 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap');
+*
+{
+ margin:0;
+ padding:0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.bg-lights
+{
+    background-color: #fff;
+}
+#nav-bar
+{
+ position:sticky;
+ font-family: 'Poppins',sans-serif;
+ top:0;
+ z-index:10;
+}
+.navbar-nav li
+{ 
+ padding:0 10px;
+ background:#fff;
+ }
+ 
+ .navbar-nav li a
+{ 
+  float:right;
+  text-align:left;
+ }
+ #nav-bar ul li a
+{
+  color:#2b8ccd;
+  font-weight: bold;
+ }
+
+#navbarNav ul li:nth-child(n) a:hover
+{
+  color:black;
+  font-weight: bold;
+ }
+
+ .navbar
+{
+ background:#fff;
+ } 
+ #slider
+{
+ padding-top:100px;
+ width:100%;
+ }
+ #contact
+{
+ background:#fff;
+ padding-top:40px;
+ padding-bottom:40px;
+ color:#999;
+ }
+.contact-form
+{
+ padding:15px;
+ }
+ .form-control
+{
+  border-radius:0;
+  border:1px solid black;
+ }
+.follow
+{
+  background:#fff;
+  padding:10px;
+  margin:15px;
+  border:1px solid black;
+ }
+.contact-info .fa
+{
+  margin:10px;
+  color:#2b8ccd;
+  font-weight:bold;
+}
+#footer
+{
+  background:white;
+  color:#2b8ccd;
+  padding:12px;
+}
+.custom-section
+{
+  padding:100px 0;
+}
+.title
+{
+  margin-top: 50px;
+}
+.title #title1
+{
+  font-weight: 700;
+  font-size: 63px;
+  margin-bottom:0;
+  line-height: 1;
+}
+.title #title2
+{
+  font-weight: 300;
+  font-size: 63px;
+  line-height: 1;
+}
+.title #title3
+{
+  font-size: 18px;
+  margin-top:30px;
+}
+.imagebanner img 
+{
+  width:100%;
+}
+#about
+{
+  padding-top:100px;
+  padding-bottom:100px;
+  color:#555;
+ }
+
+.about-content
+{
+  padding-top:20px; 
+  overflow: scroll;
+  overflow-x: hidden;
+  height:350px;
+  font-size:16px;
+  font-family:"Poppins";
+  font-weight:medium;
+ }
+
+.aboutus
+{
+  color:#2b8ccd;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 3px;
+}
+ .aboutus:after
+{
+ content:'';
+ background:#2b8ccd;
+ display:block;
+ height:4px;
+ width:180px;
+ margin:20px auto 5px;
+ }
+#addborder1,#addborder2,#addborder3,#addborder4{
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+#services
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.decnone
+{
+  list-style-type: none;
+}
+
+.decnone li
+{
+  font-weight: 400;
+  font-family: "Poppins",sans-serif;
+}

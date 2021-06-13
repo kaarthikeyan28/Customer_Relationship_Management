@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #ECF0F1;
+  position: relative;
+}
+
+.header {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  height: 80%;
+  width: 20%;
+  background: white url("images/websitelogo.png") no-repeat center/contain;
+}
+
+.header__nav {
+  background: white;
+  width: 500px;
+  margin-right: 70px;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: brown;
+  padding: 0px 0px 0px 0px;
+  font-weight: bolder;
+}
+
+.header__list-elem {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.l-topcontainer {
+  height: 90vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ECF0F1;
+}
+
+.sidebar {
+  height: 100%;
+  width: 15%;
+  max-width: 250px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1a7ebe), color-stop(#2b8ccd), color-stop(#3a9bdb), color-stop(#48aaea), to(#55b9f9));
+  background-image: linear-gradient(to bottom, #1a7ebe, #2b8ccd, #3a9bdb, #48aaea, #55b9f9);
+}
+
+.sidebar__icon {
+  font-size: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #a5a3a3;
+  padding: 20px 0px 0px 0px;
+  font-weight: bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sidebar__icon i {
+  margin-right: 10px;
+}
+
+.sidebar__menu {
+  margin: 25px 0px;
+}
+
+.sidebar__list-elem {
+  font-size: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0.75em 1.2em;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-weight: bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sidebar__list-elem:hover {
+  background-color: #334a55;
+}
+
+.sidebar__list-elem--active {
+  background-color: #334a55;
+}
+
